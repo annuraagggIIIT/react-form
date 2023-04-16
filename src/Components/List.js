@@ -1,62 +1,48 @@
 import react from 'react'
+import "./List.css";
+
 const List = () => {
     return (
         <>
-            
-            <div className=' flex bg-black h-screen items-top align-top justify-top uppercase animate-ping-1 text-yellow-600 font-semibold border-6
-                 '>
-            <div className=' border-b-2 border-red-600 w-full align-middle justify-center semibold '>
+            <div class="list-heading">
+             <h1>List </h1>
+            </div>
+            <div class="list-img">
+            <div class="list-1">
             <div>
-                        <h1>list </h1>
-
+                    <img src="./images/one.jpg" />
+                    <h2>One</h2>
+            </div>
+            <div>
+                    <img src="./images/two.jfif" />
+                    <h2>Two</h2>
+                </div>
+                <div>
+                    <img src="./images/three.jpg" />
+                    <h2>Three</h2>
+            </div>
+            </div>
+            <div class="list-2">
+            <div>
+                    <img src="./images/three.jpg" />
+                    <h2>Three</h2>
+            </div> <div>
+                    <img src="./images/one.jpg" />
+                    <h2 color='white'>One</h2>
                     </div>
                     <div>
-                    <div className='flex justify-center m-4 gap-2'>
-                            <div className='border border-yellow-500'>
-                                <img className='aspect-auto w-[150px] p-4' src="./images/one.jpg" alt="" />
-                                <div className='border border-yellow-500 flex text-yellow-500 justify-center items-center align-middle'>
-                                    <h1>Title</h1>
-                                </div>
-                            </div>
-                            <div className='border border-yellow-500'>
-                                <img className='aspect-auto w-[150px] p-4' src="./images/one.jpg" alt="" />
-                                <div className='border border-yellow-500 flex text-yellow-500 justify-center items-center align-middle'>
-                                    <h1>Title</h1>
-                                </div>
-                            </div>
-                            <div className='border border-yellow-500'>
-                                <img className='aspect-auto w-[150px] p-4' src="./images/one.jpg" alt="" />
-                                <div className='border border-yellow-500 flex text-yellow-500 justify-center items-center align-middle'>
-                                    <h1>Title</h1>
-                                </div>
-                            </div>    
-                        </div>
-                        <div className='flex justify-center m-4 gap-2'>
-                            <div className='border border-yellow-500'>
-                                <img className='aspect-auto w-[150px] p-4' src="./images/one.jpg" alt="" />
-                                <div className='border border-yellow-500 flex text-yellow-500 justify-center items-center align-middle'>
-                                    <h1>Title</h1>
-                                </div>
-                            </div>
-                            <div className='border border-yellow-500'>
-                                <img className='aspect-auto w-[150px] p-4' src="./images/one.jpg" alt="" />
-                                <div className='border border-yellow-500 flex text-yellow-500 justify-center items-center align-middle'>
-                                    <h1>Title</h1>
-                                </div>
-                            </div>
-                            <div className='border border-yellow-500'>
-                                <img className='aspect-auto w-[150px] p-4' src="./images/one.jpg" alt="" />
-                                <div className='border border-yellow-500 flex text-yellow-500 justify-center items-center align-middle'>
-                                    <h1>Title</h1>
-                                </div>
-                            </div>    
-                        </div>
-                    </div>
-                    </div>
-
-
-        
+                    <img src="./images/two.jfif" />
+                    <h2>Two</h2>
+            </div>
                 </div>
+                </div>
+            
+                        
+
+                    
+                                
+                            
+                    
         </>
     )
 }
