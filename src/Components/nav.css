@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: goldenrod;
+    background-color: purple;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.nav-1 {
+padding-left: 0.5rem;
+}
+
+.nav-2{
+    display: flex;
+    gap: 2rem;
+    padding-right: 0.5rem;
+
+}
+.nav-2 a:hover{
+    color: aqua;
+
+}
+.nav-1 h1:hover{
+    color: aqua;
+
+}
